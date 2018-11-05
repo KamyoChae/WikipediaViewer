@@ -11,7 +11,6 @@ input.on("input", function () {
 
 });
 
-
 input.on("focus", function (e) {
   // value ：null初始化状态 ""是清空字符状态 
   if (value !== null && value !== "") {
